@@ -1,0 +1,24 @@
+{
+  "name": "history-record-plugin",
+  "version": "1.1.0",
+  "description": "build validation",
+  "author": "maoxin",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts":{
+    "test": "node ./lib/svnCheck.js"
+  },
+  "main": "./index.js",
+  "maintainers": [
+    {
+      "name": "ythyhvh",
+      "email": "ythycn@hotmail.com"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "path": "^0.12.7"
+  }
+}
